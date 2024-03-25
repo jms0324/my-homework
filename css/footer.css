@@ -15,3 +15,71 @@
     --color-orange-main: #fe9519;
 
 }
+.footerbar{
+    background-color: var(--color-main-black);
+    display:flex;
+    width: 1440px;
+    height: 160px;
+
+}
+.footer_txt_div{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: auto;
+}
+.footer_title{
+
+    font-family: "GmarketSans";
+    font-weight: 400;
+    color:#ffffff;
+
+    line-height: 15px;
+
+    margin-bottom: 40px;
+    font-size: 15px;
+
+
+
+}
+.footer_menus{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+    margin: auto;
+
+
+
+}
+.managers{
+
+
+    width: 81px;
+    height: 17px;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 13px;
+
+
+}
+.KAU_likelion{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Noto Sans KR";
+    width: 68px;
+    height: 17px;
+    font-size: 12px;
+
+}
+.Likelion_Univ{
+    color: white;
+    font-family: "Noto Sans KR";
+    width: 76px;
+    height: 17px;
+    font-size: 12px;
+}

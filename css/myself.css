@@ -1,0 +1,79 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --color-main-black: #3e3e3e;
+    --color-sky-blue: #87CEEB;
+}
+.인트로{
+    text-align: center;
+    font-size: 40px;
+    font-family: "SBAggroB"
+
+
+}
+
+.인적사항{
+    background-color :var( --color-sky-blue);
+    display: flex;
+    font-family: "Ownglyph_meetme-Rg";
+    justify-content: space-evenly;
+}
+.이름소개{
+    font-size: 40px;
+}
+.나이소개{
+    font-size: 40px;
+}
+.닉네임소개{
+    font-size: 40px;
+}
+.others{
+    display: flex;
+    justify-content: space-around;
+
+}
+.깃허브사진{
+    height: 200px;
+    width: 200px;
+
+}
+.깃허브설명{
+    text-decoration: none;
+    font-family: Ownglyph_meetme-Rg;
+    font-size: 30px;
+}
+.마루사진{
+    height: 250px;
+    width:250px;
+
+}
+.인스타설명{
+    font-size: 30px;
+    font-family: Ownglyph_meetme-Rg;
+}
+.마루설명{
+    text-decoration: none;
+    font-family: Ownglyph_meetme-Rg;
+    font-size: 30px;
+
+}
+
+
