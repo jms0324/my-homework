@@ -1,0 +1,73 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+:root{
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+
+}
+.사진들{
+    display: flex;
+    justify-content: space-around;
+
+}
+.marumenu{
+    justify-content: center;
+    display: flex;
+    background-color: plum;
+}
+.마루소개{
+    font-family: Ownglyph_meetme-Rg;
+    font-size: 50px;
+
+}
+.마루마루{
+    display: flex;
+    text-decoration-line: none;
+
+    justify-content: center;
+}
+.hello{
+    font-family: Ownglyph_meetme-Rg;
+    font-size: 100px;
+    color: black;
+
+
+
+}
+
+.마루2{
+    width: 300px;
+    height: 300px;
+
+}
+.마루3{
+    width:300px;
+    height:300px;
+}
+.마루4{
+    width:300px;
+    height:300px;
+}
