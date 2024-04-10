@@ -5,12 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <script src="../../js/base.js"></script>
+    <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/myself.css">
+    <link rel="stylesheet" href="../../css/footer.css">
     <title>myself</title>
 
 </head>
 <body>
+<div nav-include-path="../../templates/layout/navbar.html">  <!-- 태그 주석같은거임 -->
+    <script>LoadNAVBAR();</script>
+</div>
 <nav class="main">
     <div class="intro">
 
@@ -70,6 +75,10 @@
     </div>
 
 </nav>
+<div foot-include-path="../../templates/layout/footer.html">  <!-- 태그 주석같은거임 -->
+    <script>LoadFOOTER();</script>
+</div>
+
 
 </body>
 </html>

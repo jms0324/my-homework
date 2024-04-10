@@ -97,7 +97,8 @@
      font-family: GmarketSans;
      display: block;
      justify-content: center;
-     flex-direction: row;
+     text-align: center;
+     flex-direction: column;
      padding-top: 20px;
      margin: auto;
 
