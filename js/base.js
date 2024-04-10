@@ -54,6 +54,6 @@ function LoadFOOTER(){
 
 }
 
-function go_main() {
+function go_main() {    //버튼클래스에서 onclick하면 main.html로 이동하게해주는 함수  절대경로로 구현
     window.location.href =  "/LikeLionhw/templates/main.html";
 }
